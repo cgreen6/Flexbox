@@ -1,0 +1,47 @@
+/* some default styles to make each box visible*/
+.box {
+	color: mistyrose;
+	font-size: 75px;
+	text-align: center;
+	align-self: space-around;
+	text-shadow: 4px 4px rgba(0,0,0,0.1);
+	height: 200px;
+	width: 200px;
+}
+
+/*colours for each box*/
+.box1 { background:#9b59b6;}
+.box2 { background:#3498db;}
+.box3 { background:#1abc9c;}
+.box4 { background:#e67e22;}
+.box5 { background:#f1c40f;}
+.box6 { background:#bdc3c7;}
+.box7 { background:#e74c3c;}
+.box8 { background:#e67e22;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
+
+/* we start writing out flexbox her. The about is just page setup */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.box {
+  flex-basis: 33.333%
+}
+
+.box1 {
+  flex-basis: 33.333%;
+}
+
+.box2 {
+  flex-basis:33.333%
+}
+
+.box10 {
+  flex-basis: 100%;
+}
+
+
